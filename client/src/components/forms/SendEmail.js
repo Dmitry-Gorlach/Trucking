@@ -27,7 +27,7 @@ class SendEmail extends Component {
         recipients: this.props.location.state.users,
         subject: '',
         message: '',
-        template: 'template',
+        template: '',
         backgroundColor: '#ADFF2F',
     };
 
